@@ -4,10 +4,14 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
  
-hello
+<div>hello</div>
   <RouterView />
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
+div{
+  width: 200px; 
+  height: 200px;
+  background-color: red;
+}
 </style>
